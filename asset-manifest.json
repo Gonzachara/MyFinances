@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MyFinances/static/css/main.0cf8db6d.css",
+    "main.js": "/MyFinances/static/js/main.3bad1f5c.js",
+    "static/js/453.2c5c47f6.chunk.js": "/MyFinances/static/js/453.2c5c47f6.chunk.js",
+    "index.html": "/MyFinances/index.html",
+    "main.0cf8db6d.css.map": "/MyFinances/static/css/main.0cf8db6d.css.map",
+    "main.3bad1f5c.js.map": "/MyFinances/static/js/main.3bad1f5c.js.map",
+    "453.2c5c47f6.chunk.js.map": "/MyFinances/static/js/453.2c5c47f6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0cf8db6d.css",
+    "static/js/main.3bad1f5c.js"
+  ]
+}
