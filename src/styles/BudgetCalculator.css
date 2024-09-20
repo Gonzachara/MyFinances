@@ -1,0 +1,93 @@
+    /* BudgetCalculator.css */
+    .budget-calculator {
+        padding: 20px;
+        background-color: var(--card-background);
+        border-radius: 8px;
+        box-shadow: var(--card-shadow);
+    }
+    
+    .budget-calculator h1 {
+        color: var(--primary-color);
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    .income-input, .category-input {
+        margin-bottom: 20px;
+    }
+    
+    .income-input label {
+        display: block;
+        margin-bottom: 5px;
+        color: var(--text-color);
+    }
+    
+    .income-input input,
+    .category-input input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+    
+    .category-input {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .category-input input {
+        flex: 1;
+    }
+    
+    .category-input button {
+        padding: 10px 20px;
+        background-color: var(--primary-color);
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .category-input button:hover {
+        background-color: #3a7bd5;
+    }
+    
+    .budget-list {
+        margin-top: 30px;
+    }
+    
+    .budget-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: #f5f5f5;
+        border-radius: 4px;
+        margin-bottom: 10px;
+    }
+    
+    .budget-item .category {
+        font-weight: bold;
+    }
+    
+    .budget-item .amount {
+        color: var(--primary-color);
+    }
+    
+    .budget-chart {
+        margin-top: 30px;
+    }
+    
+    .budget-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--secondary-color);
+        color: white;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        transition: width 0.5s ease-in-out;
+    }
+    

@@ -1,0 +1,77 @@
+    /* SavingsProjection.css */
+    .savings-projection {
+        padding: 20px;
+        background-color: var(--card-background);
+        border-radius: 8px;
+        box-shadow: var(--card-shadow);
+    }
+    
+    .savings-projection h1 {
+        color: var(--primary-color);
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    .projection-input {
+        margin-bottom: 20px;
+    }
+    
+    .projection-input label {
+        display: block;
+        margin-bottom: 5px;
+        color: var(--text-color);
+    }
+    
+    .projection-input input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+    
+    .savings-chart {
+        display: flex;
+        align-items: flex-end;
+        height: 300px;
+        margin-top: 30px;
+        padding: 20px;
+        background-color: #f5f5f5;
+        border-radius: 8px;
+    }
+    
+    .savings-bar {
+        flex: 1;
+        background-color: var(--secondary-color);
+        margin: 0 2px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        transition: height 0.5s ease-in-out;
+        position: relative;
+        min-height: 20px;
+    }
+    
+    .savings-bar .month {
+        position: absolute;
+        bottom: -25px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 12px;
+    }
+    
+    .savings-bar .amount {
+        position: absolute;
+        top: -25px;
+        left: 50%;
+        transform: translateX(-50%) rotate(-45deg);
+        font-size: 12px;
+        color: var(--primary-color);
+    }
+    
+    .total-savings {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 1.2em;
+        color: var(--primary-color);
+        font-weight: bold;
+    }
